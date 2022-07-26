@@ -14,6 +14,7 @@ path('index',views.index,name='index'),
 
 #ADMIN
 path('admin_head_dashboard',views.admin_head_dashboard,name='admin_head_dashboard'),
+path('admin_profile',views.admin_profile,name='admin_profile'),
 path('admin_ithead_page',views.admin_ithead_page,name='admin_ithead_page'),
 path('admin_ithead_leads',views.admin_ithead_leads,name='admin_ithead_leads'),
 path('admin_councilor_page',views.admin_councilor_page,name='admin_councilor_page'),
@@ -25,11 +26,13 @@ path('load_admin_client_currentstatus',views.load_admin_client_currentstatus,nam
 
 #IT HEAD
 path('IT_head_dashboard',views.IT_head_dashboard,name='IT_head_dashboard'),
+path('IT_head_profile',views.IT_head_profile,name='IT_head_profile'),
 path('IT_head_leads',views.IT_head_leads,name='IT_head_leads'),
 
 
 #STUDENT COUNCILOR
 path('Student_head_dashboard',views.Student_head_dashboard,name='Student_head_dashboard'),
+path('Student_Councilor_profile',views.Student_Councilor_profile,name='Student_Councilor_profile'),
 path('Leads_Data_Collect',views.Leads_Data_Collect,name='Leads_Data_Collect'),
 
 
@@ -39,6 +42,7 @@ path('Document_head_Profile',views.Document_head_Profile,name='Document_head_Pro
 
 #Team_Lead
 path('Team_Lead_dashboard',views.Team_Lead_dashboard,name='Team_Lead_dashboard'),
+path('Team_Lead_profile',views.Team_Lead_profile,name='Team_Lead_profile'),
 
 #STUDENT
 path('studeny_progress_report',views.studeny_progress_report,name='studeny_progress_report'),

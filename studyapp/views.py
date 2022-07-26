@@ -18,6 +18,9 @@ def index(request):
 def admin_head_dashboard(request):
     return render(request,'admin_dashboard.html')
 
+def admin_profile(request):
+    return render(request,'admin_profile.html')
+
 def admin_ithead_page(request):  
     return render(request,'admin_ithead_page.html') 
 def admin_ithead_leads(request):  
@@ -41,6 +44,9 @@ def admin_leads(request):
 def IT_head_dashboard(request):
     return render(request,'IT_head_dashboard.html')
 
+def IT_head_profile(request):
+    return render(request,'IT_head_profile.html')
+
 def IT_head_leads(request):
     return render(request,'IT_head_leads.html')
 
@@ -50,8 +56,14 @@ def IT_head_leads(request):
 def Student_head_dashboard(request):
     return render(request,'StudentCounsilor.html')
 
+def Student_Councilor_profile(request):
+    return render(request,'StudentCouncilor_Profile.html')
+
 def Leads_Data_Collect(request):
     return render(request,'Leads_Data_Collects.html')
+
+def Team_Lead_profile(request):
+    return render(request,'Team_Lead_profile.html')
 
 
 #DOCUMENT OFFICIER
@@ -59,7 +71,7 @@ def Document_head_dashboard(request):
     return render(request,'Document_Officer_dashboard.html')
 
 def Document_head_Profile(request):
-    return render(request,'Document-profile.html')
+    return render(request,'Document_Officer_Profile.html')
 
 #TEAM LEAD
 
